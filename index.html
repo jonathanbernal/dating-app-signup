@@ -3,53 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <link rel="stylesheet" href="style.css">
     <script src="validate.js" type="text/javascript" defer></script>
     <title>Dating Site Signup</title>
 </head>
 <body>
     <div class="img-container">
-        <div style="width: 40vw; height: 100vh; background-color: gray"></div>
-        <!-- <img src="/assets/images/pexels-nathan-cowley-1310689.jpg" alt="" srcset=""> -->
+        <img src="/assets/images/pexels-nathan-cowley-1310689.jpg" alt="" srcset="">
     </div>  
     <div class="signup-form-container">
         <header>
             <h1>Sign Up</h1>
-            <p>Join Thousands of People<br>who are in search of love.</p>
+            <p>Join Thousands of People who are in search of love.</p>
+            <div class="signin-container">Already a Member? <a href="#">Log In</a></div>
         </header>
 
-        <div class="signin-container">Already a Member? <a href="#">Log In</a></div>
         <form>
-            <label for="first_name">
-                First Name*
-                <input type="text" name="first_name" id="first_name" required>
-            </label>
+            <fieldset>
+                <legend>Your Name</legend>
+                <label for="first_name">
+                    First Name*
+                    <input type="text" name="first_name" id="first_name" required>
+                </label>
+    
+                <label for="last_name">
+                    Last Name (optional)
+                    <input type="text" name="last_name" id="last_name">
+                </label>
+            </fieldset>
 
-            <label for="last_name">
-                Last Name (optional)
-                <input type="text" name="last_name" id="last_name">
-            </label>
+            <fieldset>
+                <legend>Your Contact Info</legend>
+                <label for="email">
+                    Email*
+                    <input type="email" name="email" id="email" required>
+                </label>
+    
+                <label for="phone_number">
+                    Phone Number*
+                    <input type="tel" name="phone_number" id="phone_number" required>
+                </label>
+            </fieldset>
 
-            <label for="email">
-                Email*
-                <input type="email" name="email" id="email" required>
-            </label>
-
-            <label for="phone_number">
-                Phone Number*
-                <input type="tel" name="phone_number" id="phone_number" required>
-            </label>
-
-            <label for="password">
-                Password*
-                <input type="password" name="password" id="password">
-            </label>
-            
-            <label for="repeat_password">
-                Repeat Password*
-                <input type="password" name="repeat_password" id="repeat_password">
-            </label>
+            <fieldset>
+                <legend>Your Password</legend>
+                <label for="password">
+                    Password*
+                    <input type="password" name="password" id="password">
+                </label>
+                
+                <label for="repeat_password">
+                    Repeat Password*
+                    <input type="password" name="repeat_password" id="repeat_password">
+                </label>
+            </fieldset>
             
             <button type="submit">Sign Up</button>
         </form>
