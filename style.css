@@ -1,0 +1,17 @@
+:root {
+    --color-light: #F5F5F5;
+    --color-medium: #E8E2E2;
+    --color-dark: #5D3891;
+    --background-color: #F99417;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--background-color);
+}
