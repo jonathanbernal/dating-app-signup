@@ -10,40 +10,53 @@
 </head>
 <body>
     <div class="img-container">
-        
-    </div>
+        <div style="width: 40vw; height: 100vh; background-color: gray"></div>
+        <!-- <img src="/assets/images/pexels-nathan-cowley-1310689.jpg" alt="" srcset=""> -->
+    </div>  
     <div class="signup-form-container">
         <header>
             <h1>Sign Up</h1>
-            <p>Join Thousands of People who are in search of love.</p>
+            <p>Join Thousands of People<br>who are in search of love.</p>
         </header>
 
-        <div>Already a Member? <a href="#">Log In</a></div>
+        <div class="signin-container">Already a Member? <a href="#">Log In</a></div>
         <form>
-            <label for="first_name">First Name*</label>
-            <input type="text" name="first_name" id="first_name" required>
+            <label for="first_name">
+                First Name*
+                <input type="text" name="first_name" id="first_name" required>
+            </label>
 
-            <label for="last_name">Last Name (optional)</label>
-            <input type="text" name="last_name" id="last_name">
+            <label for="last_name">
+                Last Name (optional)
+                <input type="text" name="last_name" id="last_name">
+            </label>
 
-            <label for="email">Email*</label>
-            <input type="email" name="email" id="email" required>
+            <label for="email">
+                Email*
+                <input type="email" name="email" id="email" required>
+            </label>
 
-            <label for="phone_number">Phone Number*</label>
-            <input type="tel" name="phone_number" id="phone_number" required>
+            <label for="phone_number">
+                Phone Number*
+                <input type="tel" name="phone_number" id="phone_number" required>
+            </label>
 
-            <label for="password">Password*</label>
-            <input type="password" name="password" id="password">
-
-            <label for="repeat_password">Repeat Password*</label>
-            <input type="password" name="repeat_password" id="repeat_password">
+            <label for="password">
+                Password*
+                <input type="password" name="password" id="password">
+            </label>
+            
+            <label for="repeat_password">
+                Repeat Password*
+                <input type="password" name="repeat_password" id="repeat_password">
+            </label>
             
             <button type="submit">Sign Up</button>
-
-            <div class="alt-signup">
-                Or continue with <a href="#">Google</a> or <a href="#">Facebook</a>
-            </div>
         </form>
+
+        <div class="alt-signup">
+            Or continue with <a href="#">Google</a> or <a href="#">Facebook</a>
+        </div>
     </div>
 <!-- <footer>
             <a href="https://www.pexels.com/photo/woman-smiles-while-holding-her-hand-1310689/">Photo by Nathan Cowley from Pexels</a> 
