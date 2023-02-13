@@ -93,6 +93,7 @@ header {
 
 .signin-container, .alt-signup {
     color: var(--color-medium);
+    text-align: center;
 }
 
 .signup-form-container p, .signin-container, 
@@ -159,6 +160,10 @@ button[type="submit"] {
         object-fit: scale-down;
         position: absolute;
         top: -25%;
+    }
+
+    .banner {
+        top: 30%;
     }
 
     .signup-form-container {
